@@ -1,0 +1,888 @@
+[ESTADISTICA DE LA TESIS preview.html](https://github.com/user-attachments/files/33450591/ESTADISTICA.DE.LA.TESIS.preview.html)
+<!DOCTYPE html>
+<!-- saved from url=(0085)file:///Users/stivenkevinrosalescasas/documentos-otros/tesis-estadistica.html#confiab -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estadística de la Tesis · Diseño Acústico y Arquitectónico — Explicada simple</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+  :root { color-scheme: dark; }
+  html, body { background: #0a0a0f; }
+  .glow { box-shadow: 0 0 0 1px rgba(255,255,255,0.06), 0 30px 60px -20px rgba(99,102,241,0.25); }
+  .grad-text { background: linear-gradient(90deg,#a78bfa,#22d3ee,#f472b6); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .ring-soft { box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08); }
+  .chip { display:inline-flex; align-items:center; gap:.4rem; padding:.25rem .6rem; border-radius:999px; font-size:.72rem; letter-spacing:.04em; text-transform:uppercase; }
+  .pill-btn { transition: all .2s ease; }
+  .pill-btn[aria-pressed="true"] { background:linear-gradient(135deg,#7c3aed,#06b6d4); color:white; box-shadow:0 10px 30px -10px rgba(124,58,237,.6); }
+  .card { background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01)); border:1px solid rgba(255,255,255,0.06); border-radius:1.25rem; }
+  .hl { background: linear-gradient(90deg, rgba(167,139,250,.25), rgba(34,211,238,.15)); padding:0 .25rem; border-radius:.25rem; }
+  .scroll-shadow::-webkit-scrollbar { height:8px; width:8px;}
+  .scroll-shadow::-webkit-scrollbar-thumb { background:#27272a; border-radius:8px;}
+  details > summary { list-style:none; cursor:pointer; }
+  details > summary::-webkit-details-marker { display:none;}
+  .marker-dot{ width:.5rem; height:.5rem; border-radius:999px; display:inline-block; }
+  .kbd { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.72rem; padding:.1rem .35rem; border-radius:.35rem; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.04); }
+  .step-num { width:2rem;height:2rem;border-radius:9999px;display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#7c3aed,#06b6d4);color:white;font-weight:700;}
+  .anim-pulse-soft { animation: pulse 3s ease-in-out infinite; }
+  @keyframes pulse { 0%,100%{opacity:.6} 50%{opacity:1} }
+</style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-left-20{left:-5rem}.-right-20{right:-5rem}.-top-1\.5{top:-0.375rem}.-top-32{top:-8rem}.top-0{top:0px}.top-40{top:10rem}.-z-10{z-index:-10}.z-40{z-index:40}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mt-1{margin-top:0.25rem}.mt-1\.5{margin-top:0.375rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-3{height:0.75rem}.h-6{height:1.5rem}.h-\[260px\]{height:260px}.h-\[300px\]{height:300px}.h-\[36rem\]{height:36rem}.h-\[40rem\]{height:40rem}.h-\[560px\]{height:560px}.h-full{height:100%}.w-1\.5{width:0.375rem}.w-\[36rem\]{width:36rem}.w-\[40rem\]{width:40rem}.w-full{width:100%}.max-w-3xl{max-width:48rem}.max-w-6xl{max-width:72rem}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.items-baseline{align-items:baseline}.items-stretch{align-items:stretch}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-5{gap:1.25rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-white\/5{border-color:rgb(255 255 255 / 0.05)}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36 / var(--tw-bg-opacity, 1))}.bg-amber-500\/10{background-color:rgb(245 158 11 / 0.1)}.bg-black\/40{background-color:rgb(0 0 0 / 0.4)}.bg-cyan-400{--tw-bg-opacity:1;background-color:rgb(34 211 238 / var(--tw-bg-opacity, 1))}.bg-cyan-500\/20{background-color:rgb(6 182 212 / 0.2)}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153 / var(--tw-bg-opacity, 1))}.bg-emerald-500\/10{background-color:rgb(16 185 129 / 0.1)}.bg-emerald-500\/5{background-color:rgb(16 185 129 / 0.05)}.bg-rose-400{--tw-bg-opacity:1;background-color:rgb(251 113 133 / var(--tw-bg-opacity, 1))}.bg-rose-500\/10{background-color:rgb(244 63 94 / 0.1)}.bg-violet-400{--tw-bg-opacity:1;background-color:rgb(167 139 250 / var(--tw-bg-opacity, 1))}.bg-violet-700\/30{background-color:rgb(109 40 217 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/5{background-color:rgb(255 255 255 / 0.05)}.bg-emerald-500\/15{background-color:rgb(16 185 129 / 0.15)}.bg-amber-500\/15{background-color:rgb(245 158 11 / 0.15)}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-emerald-400{--tw-gradient-from:#34d399 var(--tw-gradient-from-position);--tw-gradient-to:rgb(52 211 153 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-500{--tw-gradient-from:#f43f5e var(--tw-gradient-from-position);--tw-gradient-to:rgb(244 63 94 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-zinc-700{--tw-gradient-to:rgb(63 63 70 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #3f3f46 var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-cyan-400{--tw-gradient-to:#22d3ee var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-12{padding-bottom:3rem}.pt-16{padding-top:4rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-7xl{font-size:4.5rem;line-height:1}.text-\[10px\]{font-size:10px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-none{line-height:1}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.text-amber-300{--tw-text-opacity:1;color:rgb(252 211 77 / var(--tw-text-opacity, 1))}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-cyan-300{--tw-text-opacity:1;color:rgb(103 232 249 / var(--tw-text-opacity, 1))}.text-emerald-300{--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.text-rose-300{--tw-text-opacity:1;color:rgb(253 164 175 / var(--tw-text-opacity, 1))}.text-rose-400{--tw-text-opacity:1;color:rgb(251 113 133 / var(--tw-text-opacity, 1))}.text-violet-300{--tw-text-opacity:1;color:rgb(196 181 253 / var(--tw-text-opacity, 1))}.text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71 / var(--tw-text-opacity, 1))}.text-zinc-200{--tw-text-opacity:1;color:rgb(228 228 231 / var(--tw-text-opacity, 1))}.text-zinc-300{--tw-text-opacity:1;color:rgb(212 212 216 / var(--tw-text-opacity, 1))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170 / var(--tw-text-opacity, 1))}.text-zinc-500{--tw-text-opacity:1;color:rgb(113 113 122 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.accent-cyan-400{accent-color:#22d3ee}.accent-emerald-400{accent-color:#34d399}.opacity-60{opacity:0.6}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-xl{--tw-backdrop-blur:blur(24px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}@media (min-width: 768px){.md\:flex{display:flex}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-3xl{font-size:1.875rem;line-height:2.25rem}.md\:text-6xl{font-size:3.75rem;line-height:1}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}</style></head>
+<body class="text-zinc-200 antialiased">
+
+<!-- NAV -->
+<nav class="sticky top-0 z-40 backdrop-blur-xl bg-black/40 border-b border-white/5">
+  <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between text-sm">
+    <div class="flex items-center gap-2 font-semibold">
+      <span class="marker-dot bg-violet-400"></span>
+      <span class="grad-text">Tesis · Diseño Acústico</span>
+    </div>
+    <div class="hidden md:flex gap-5 text-zinc-400">
+      <a href="#contexto" class="hover:text-white">Contexto</a>
+      <a href="#metodo" class="hover:text-white">Método</a>
+      <a href="#confiab" class="hover:text-white">Confiabilidad</a>
+      <a href="#resultados" class="hover:text-white">Resultados</a>
+      <a href="#correlacion" class="hover:text-white">Correlación</a>
+      <a href="#pruebat" class="hover:text-white">Prueba t</a>
+      <a href="#conclusion" class="hover:text-white">Conclusión</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="relative overflow-hidden">
+  <div class="absolute inset-0 -z-10 opacity-60">
+    <div class="absolute -top-32 -left-20 w-[40rem] h-[40rem] rounded-full blur-3xl bg-violet-700/30"></div>
+    <div class="absolute top-40 -right-20 w-[36rem] h-[36rem] rounded-full blur-3xl bg-cyan-500/20"></div>
+  </div>
+  <div class="max-w-6xl mx-auto px-6 pt-16 pb-12">
+    <span class="chip bg-white/5 ring-soft text-zinc-300">Estadística explicada en simple</span>
+    <h1 class="mt-4 text-4xl md:text-6xl font-black tracking-tight leading-tight">
+      ¿Qué dicen los <span class="grad-text">números</span> de esta tesis?
+    </h1>
+    <p class="mt-5 text-lg md:text-xl text-zinc-400 max-w-3xl">
+      Vamos a desarmar, sin formulones, la parte estadística de la tesis
+      <em>"Diseño acústico y el diseño arquitectónico en un local de recepciones Pilcomayo — Huancayo"</em>.
+      Cero misterio: te muestro <span class="hl">qué se midió, cómo, y qué conclusión salió</span>.
+    </p>
+
+    <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3">
+      <div class="card p-4">
+        <div class="text-xs uppercase tracking-wider text-zinc-500">Participantes</div>
+        <div class="text-3xl font-bold mt-1">17</div>
+        <div class="text-xs text-zinc-400">arquitectos especialistas</div>
+      </div>
+      <div class="card p-4">
+        <div class="text-xs uppercase tracking-wider text-zinc-500">Preguntas</div>
+        <div class="text-3xl font-bold mt-1">26</div>
+        <div class="text-xs text-zinc-400">ítems en el cuestionario</div>
+      </div>
+      <div class="card p-4">
+        <div class="text-xs uppercase tracking-wider text-zinc-500">Confiabilidad</div>
+        <div class="text-3xl font-bold mt-1 text-emerald-400">0.965</div>
+        <div class="text-xs text-zinc-400">α de Cronbach (excelente)</div>
+      </div>
+      <div class="card p-4">
+        <div class="text-xs uppercase tracking-wider text-zinc-500">Correlación</div>
+        <div class="text-3xl font-bold mt-1 text-cyan-300">0.959</div>
+        <div class="text-xs text-zinc-400">r de Pearson</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- CONTEXTO -->
+<section id="contexto" class="max-w-6xl mx-auto px-6 py-12">
+  <div class="flex items-center gap-3 mb-4">
+    <span class="step-num">1</span>
+    <h2 class="text-2xl md:text-3xl font-bold">¿Qué se quería averiguar?</h2>
+  </div>
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="card p-6">
+      <p class="text-zinc-300">
+        La pregunta de fondo es bien concreta:
+        <span class="hl">¿el <b>diseño acústico</b> de un local de recepciones está relacionado con su <b>diseño arquitectónico</b>?</span>
+        Es decir, ¿lo que se decide en planos (forma, materiales, proporciones) se conecta con cómo "suena" el espacio (aislamiento, absorción, difusión)?
+      </p>
+      <p class="mt-3 text-zinc-400 text-sm">
+        Para responder, la tesis no inventa una solución y la prueba: <b>observa</b> qué pasa en la realidad y mide si las dos variables se mueven juntas. Eso se llama estudio <b>correlacional</b>.
+      </p>
+    </div>
+    <div class="card p-6">
+      <h3 class="font-semibold mb-3">Las dos variables, en cristiano</h3>
+      <div class="space-y-3 text-sm">
+        <div class="flex gap-3">
+          <span class="marker-dot bg-violet-400 mt-1.5"></span>
+          <div><b>Diseño acústico</b> — cómo se trata el sonido. Se mide en 3 dimensiones: <span class="text-violet-300">aislamiento</span>, <span class="text-violet-300">absorción</span> y <span class="text-violet-300">difusión</span>.</div>
+        </div>
+        <div class="flex gap-3">
+          <span class="marker-dot bg-cyan-400 mt-1.5"></span>
+          <div><b>Diseño arquitectónico</b> — cómo se construye el espacio. Tres dimensiones: <span class="text-cyan-300">forma y espacio</span>, <span class="text-cyan-300">escala y proporción</span>, <span class="text-cyan-300">materiales y texturas</span>.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MÉTODO -->
+<section id="metodo" class="max-w-6xl mx-auto px-6 py-12">
+  <div class="flex items-center gap-3 mb-4">
+    <span class="step-num">2</span>
+    <h2 class="text-2xl md:text-3xl font-bold">Cómo se midió</h2>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-5">
+    <div class="card p-5">
+      <div class="text-xs uppercase tracking-wider text-zinc-500">Población</div>
+      <div class="text-2xl font-bold mt-1">17 arquitectos</div>
+      <p class="text-sm text-zinc-400 mt-2">No se sacó "una muestra": se encuestó a <b>todos</b> los arquitectos especialistas de Huancayo identificados. Eso elimina el problema típico de "¿la muestra representa al total?".</p>
+    </div>
+    <div class="card p-5">
+      <div class="text-xs uppercase tracking-wider text-zinc-500">Instrumento</div>
+      <div class="text-2xl font-bold mt-1">Cuestionario</div>
+      <p class="text-sm text-zinc-400 mt-2">26 afirmaciones. Cada arquitecto responde en una escala simple de 3 niveles: <b>Siempre</b>, <b>A veces</b>, <b>Nunca</b>. Eso convierte una opinión en un número que se puede contar.</p>
+    </div>
+    <div class="card p-5">
+      <div class="text-xs uppercase tracking-wider text-zinc-500">Enfoque</div>
+      <div class="text-2xl font-bold mt-1">Cuantitativo</div>
+      <p class="text-sm text-zinc-400 mt-2">Tipo básico, nivel correlacional, diseño transversal. En simple: <b>una sola foto en el tiempo</b>, sin manipular nada, midiendo dos cosas para ver si se mueven juntas.</p>
+    </div>
+  </div>
+
+  <div class="card p-6 mt-6">
+    <h3 class="font-semibold mb-2">La escala Likert de 3 puntos, visual</h3>
+    <p class="text-sm text-zinc-400 mb-4">Toda la encuesta se reduce a estas tres respuestas. Acuérdate de esto porque <b>todos los gráficos de abajo</b> son frecuencias de estas categorías.</p>
+    <div class="flex flex-wrap gap-3">
+      <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-500/10 ring-soft"><span class="marker-dot bg-emerald-400"></span><b>Siempre</b> — la práctica está implementada de forma consistente.</div>
+      <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500/10 ring-soft"><span class="marker-dot bg-amber-400"></span><b>A veces</b> — se aplica de forma parcial o inconsistente.</div>
+      <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-rose-500/10 ring-soft"><span class="marker-dot bg-rose-400"></span><b>Nunca</b> — no se aplica.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONFIABILIDAD -->
+<section id="confiab" class="max-w-6xl mx-auto px-6 py-12">
+  <div class="flex items-center gap-3 mb-4">
+    <span class="step-num">3</span>
+    <h2 class="text-2xl md:text-3xl font-bold">¿La encuesta es confiable? — Alfa de Cronbach</h2>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-6 items-stretch">
+    <div class="card p-6">
+      <p class="text-zinc-300">
+        Antes de creernos los resultados, hay que comprobar que el cuestionario <b>mide bien</b>. Para eso se usa el <b>Alfa de Cronbach</b>.
+      </p>
+      <p class="text-zinc-400 text-sm mt-3">
+        Imagínalo como <b>una regla</b>: si la mides 26 veces, ¿da el mismo número o uno distinto cada vez? Si todas las preguntas que apuntan a lo mismo dan respuestas coherentes entre sí, el alfa sube hacia 1.
+      </p>
+      <div class="mt-5 p-4 rounded-xl bg-black/40 ring-soft text-sm">
+        <div class="flex justify-between"><span>α &lt; 0.6</span><span class="text-rose-400">Inaceptable</span></div>
+        <div class="flex justify-between"><span>0.6 – 0.7</span><span class="text-amber-400">Cuestionable</span></div>
+        <div class="flex justify-between"><span>0.7 – 0.8</span><span class="text-yellow-300">Aceptable</span></div>
+        <div class="flex justify-between"><span>0.8 – 0.9</span><span class="text-emerald-300">Bueno</span></div>
+        <div class="flex justify-between"><span>≥ 0.9</span><span class="text-emerald-400 font-semibold">Excelente</span></div>
+      </div>
+    </div>
+
+    <div class="card p-6 flex flex-col">
+      <div class="text-xs uppercase tracking-wider text-zinc-500">Resultado del estudio</div>
+      <div class="mt-2 flex items-baseline gap-3">
+        <span class="text-7xl font-black text-emerald-400 leading-none">0.965</span>
+        <span class="text-zinc-400">de 1.000</span>
+      </div>
+      <div class="mt-4 h-3 rounded-full bg-white/5 overflow-hidden">
+        <div id="cronbachBar" class="h-full rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400" style="width: 96.5%;"></div>
+      </div>
+      <p class="mt-4 text-zinc-300 text-sm">
+        <b>Traducción:</b> el cuestionario es <span class="hl">altamente confiable</span>. Los 26 ítems están midiendo cosas coherentes entre sí. Recién con esto, los resultados que vienen valen la pena leerse.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS INTERACTIVOS -->
+<section id="resultados" class="max-w-6xl mx-auto px-6 py-12">
+  <div class="flex items-center gap-3 mb-4">
+    <span class="step-num">4</span>
+    <h2 class="text-2xl md:text-3xl font-bold">Resultados — explóralos</h2>
+  </div>
+  <p class="text-zinc-400 max-w-3xl mb-6">
+    Aquí están las 26 preguntas. Filtra por dimensión, pasa el mouse por las barras, y mira el resumen automático. Cada barra representa cuántos de los 17 arquitectos eligieron esa opción.
+  </p>
+
+  <div class="card p-4 mb-6">
+    <div class="flex flex-wrap gap-2" id="dimFilters">
+      <button class="pill-btn px-3 py-1.5 rounded-full text-sm ring-soft" aria-pressed="false" data-dim="all">Todas (26)</button>
+      <button class="pill-btn px-3 py-1.5 rounded-full text-sm ring-soft" data-dim="aislamiento" aria-pressed="false">Aislamiento acústico</button>
+      <button class="pill-btn px-3 py-1.5 rounded-full text-sm ring-soft" data-dim="absorcion" aria-pressed="false">Absorción acústica</button>
+      <button class="pill-btn px-3 py-1.5 rounded-full text-sm ring-soft" data-dim="difusion" aria-pressed="false">Difusión acústica</button>
+      <button class="pill-btn px-3 py-1.5 rounded-full text-sm ring-soft" data-dim="forma" aria-pressed="false">Forma y espacio</button>
+      <button class="pill-btn px-3 py-1.5 rounded-full text-sm ring-soft" data-dim="escala" aria-pressed="false">Escala y proporción</button>
+      <button class="pill-btn px-3 py-1.5 rounded-full text-sm ring-soft" data-dim="materiales" aria-pressed="true">Materiales y texturas</button>
+    </div>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-3 mb-6" id="summaryCards">
+    <div class="card p-4 ring-soft">
+      <div class="flex items-center gap-2 text-xs text-zinc-500"><span class="marker-dot" style="background:#34d399"></span>Siempre</div>
+      <div class="text-3xl font-bold mt-1">68.2%</div>
+      <div class="text-xs text-zinc-400">58 respuestas de 85</div>
+    </div>
+    <div class="card p-4 ring-soft">
+      <div class="flex items-center gap-2 text-xs text-zinc-500"><span class="marker-dot" style="background:#fbbf24"></span>A veces</div>
+      <div class="text-3xl font-bold mt-1">31.8%</div>
+      <div class="text-xs text-zinc-400">27 respuestas de 85</div>
+    </div>
+    <div class="card p-4 ring-soft">
+      <div class="flex items-center gap-2 text-xs text-zinc-500"><span class="marker-dot" style="background:#fb7185"></span>Nunca</div>
+      <div class="text-3xl font-bold mt-1">0.0%</div>
+      <div class="text-xs text-zinc-400">0 respuestas de 85</div>
+    </div></div>
+
+  <div class="card p-5">
+    <div class="h-[560px]"><canvas id="itemsChart" width="2124" height="1120" style="display: block; box-sizing: border-box; height: 560px; width: 1062px;"></canvas></div>
+  </div>
+
+  <details class="card p-5 mt-6">
+    <summary class="font-semibold flex items-center justify-between">
+      <span>Ver tabla completa con porcentajes</span>
+      <span class="text-zinc-500 text-xs">▼ expandir</span>
+    </summary>
+    <div class="overflow-auto scroll-shadow mt-4">
+      <table class="w-full text-sm" id="dataTable">
+        <thead class="text-left text-zinc-400">
+          <tr><th class="py-2">#</th><th>Dimensión</th><th>Pregunta</th><th class="text-right">Siempre</th><th class="text-right">A veces</th><th class="text-right">Nunca</th></tr>
+        </thead>
+        <tbody>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">1</td>
+    <td class="text-zinc-400 text-xs">Aislamiento acústico</td>
+    <td>Alta capacidad de absorción acústica</td>
+    <td class="text-right text-emerald-300">70.59%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">2</td>
+    <td class="text-zinc-400 text-xs">Aislamiento acústico</td>
+    <td>Hermeticidad para evitar filtraciones de ruido</td>
+    <td class="text-right text-emerald-300">64.71%</td>
+    <td class="text-right text-amber-300">35.29%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">3</td>
+    <td class="text-zinc-400 text-xs">Aislamiento acústico</td>
+    <td>Materiales que minimizan la transmisión de ruido</td>
+    <td class="text-right text-emerald-300">70.59%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">4</td>
+    <td class="text-zinc-400 text-xs">Aislamiento acústico</td>
+    <td>Reducción del impacto sonoro</td>
+    <td class="text-right text-emerald-300">64.71%</td>
+    <td class="text-right text-amber-300">35.29%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">5</td>
+    <td class="text-zinc-400 text-xs">Aislamiento acústico</td>
+    <td>Tiempo de reverberación óptimo</td>
+    <td class="text-right text-emerald-300">64.71%</td>
+    <td class="text-right text-amber-300">35.29%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">6</td>
+    <td class="text-zinc-400 text-xs">Absorción acústica</td>
+    <td>Coeficiente de absorción acústica adecuado</td>
+    <td class="text-right text-emerald-300">70.59%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">7</td>
+    <td class="text-zinc-400 text-xs">Absorción acústica</td>
+    <td>Combinación de materiales absorbentes</td>
+    <td class="text-right text-emerald-300">64.71%</td>
+    <td class="text-right text-amber-300">35.29%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">8</td>
+    <td class="text-zinc-400 text-xs">Absorción acústica</td>
+    <td>Uso de materiales absorbentes en paredes/techos/pisos</td>
+    <td class="text-right text-emerald-300">70.59%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">9</td>
+    <td class="text-zinc-400 text-xs">Absorción acústica</td>
+    <td>Área total de absorción adaptable</td>
+    <td class="text-right text-emerald-300">58.82%</td>
+    <td class="text-right text-amber-300">41.18%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">10</td>
+    <td class="text-zinc-400 text-xs">Difusión acústica</td>
+    <td>Consideración de superficies reflectantes</td>
+    <td class="text-right text-emerald-300">64.71%</td>
+    <td class="text-right text-amber-300">35.29%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">11</td>
+    <td class="text-zinc-400 text-xs">Difusión acústica</td>
+    <td>Generación de puntos de concentración sonora (invertida) <span class="chip bg-rose-500/10 text-rose-300">invertida</span></td>
+    <td class="text-right text-emerald-300">0.00%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">70.59%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">12</td>
+    <td class="text-zinc-400 text-xs">Difusión acústica</td>
+    <td>Consideración de puntos de concentración de sonido</td>
+    <td class="text-right text-emerald-300">76.47%</td>
+    <td class="text-right text-amber-300">23.53%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">13</td>
+    <td class="text-zinc-400 text-xs">Difusión acústica</td>
+    <td>Influencia de superficies reflectantes evaluada</td>
+    <td class="text-right text-emerald-300">70.59%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">14</td>
+    <td class="text-zinc-400 text-xs">Difusión acústica</td>
+    <td>Distribución uniforme del sonido</td>
+    <td class="text-right text-emerald-300">64.71%</td>
+    <td class="text-right text-amber-300">35.29%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">15</td>
+    <td class="text-zinc-400 text-xs">Forma y espacio</td>
+    <td>Relación volumen-superficie considerada</td>
+    <td class="text-right text-emerald-300">70.59%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">16</td>
+    <td class="text-zinc-400 text-xs">Forma y espacio</td>
+    <td>Relación volumen-superficie ajustable</td>
+    <td class="text-right text-emerald-300">64.71%</td>
+    <td class="text-right text-amber-300">35.29%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">17</td>
+    <td class="text-zinc-400 text-xs">Forma y espacio</td>
+    <td>Geometría del espacio adecuada</td>
+    <td class="text-right text-emerald-300">76.47%</td>
+    <td class="text-right text-amber-300">23.53%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">18</td>
+    <td class="text-zinc-400 text-xs">Forma y espacio</td>
+    <td>Análisis detallado de superficies reflexivas</td>
+    <td class="text-right text-emerald-300">70.59%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">19</td>
+    <td class="text-zinc-400 text-xs">Forma y espacio</td>
+    <td>Proporciones del espacio y distribución del sonido</td>
+    <td class="text-right text-emerald-300">64.71%</td>
+    <td class="text-right text-amber-300">35.29%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">20</td>
+    <td class="text-zinc-400 text-xs">Escala y proporción</td>
+    <td>Ajustes según proporciones dimensionales</td>
+    <td class="text-right text-emerald-300">70.59%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">21</td>
+    <td class="text-zinc-400 text-xs">Escala y proporción</td>
+    <td>Herramientas de simulación acústica</td>
+    <td class="text-right text-emerald-300">64.71%</td>
+    <td class="text-right text-amber-300">35.29%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">22</td>
+    <td class="text-zinc-400 text-xs">Materiales y texturas</td>
+    <td>Análisis de dimensiones de espacio abierto</td>
+    <td class="text-right text-emerald-300">70.59%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">23</td>
+    <td class="text-zinc-400 text-xs">Materiales y texturas</td>
+    <td>Selección de materiales por absorción acústica</td>
+    <td class="text-right text-emerald-300">70.59%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">24</td>
+    <td class="text-zinc-400 text-xs">Materiales y texturas</td>
+    <td>Adaptabilidad según transmisión de sonido</td>
+    <td class="text-right text-emerald-300">64.71%</td>
+    <td class="text-right text-amber-300">35.29%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">25</td>
+    <td class="text-zinc-400 text-xs">Materiales y texturas</td>
+    <td>Adaptabilidad a configuraciones del espacio</td>
+    <td class="text-right text-emerald-300">64.71%</td>
+    <td class="text-right text-amber-300">35.29%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr>
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">26</td>
+    <td class="text-zinc-400 text-xs">Materiales y texturas</td>
+    <td>Adaptabilidad de soluciones acústicas</td>
+    <td class="text-right text-emerald-300">70.59%</td>
+    <td class="text-right text-amber-300">29.41%</td>
+    <td class="text-right text-rose-300">0.00%</td>
+  </tr></tbody>
+      </table>
+    </div>
+  </details>
+
+  <div class="mt-6 card p-6">
+    <h3 class="font-semibold mb-2">Cómo leer estos números</h3>
+    <p class="text-zinc-400 text-sm">
+      En casi todas las preguntas, entre el <b>58% y el 77%</b> de los arquitectos respondió "Siempre". Eso quiere decir que las prácticas de diseño acústico y arquitectónico <b>se aplican de forma consistente</b> en este contexto.
+      Hay <span class="hl">una excepción importante</span>: la pregunta sobre si las reflexiones acústicas generan puntos negativos de concentración sonora. Ahí el 70.59% respondió <b>"Nunca"</b> — porque en ese caso, "nunca" es <b>la respuesta deseable</b>. Atento a no confundirte con esa.
+    </p>
+  </div>
+</section>
+
+<!-- CORRELACIÓN -->
+<section id="correlacion" class="max-w-6xl mx-auto px-6 py-12">
+  <div class="flex items-center gap-3 mb-4">
+    <span class="step-num">5</span>
+    <h2 class="text-2xl md:text-3xl font-bold">¿Las dos variables están relacionadas?</h2>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="card p-6">
+      <p class="text-zinc-300">
+        Aquí entra <b>la correlación de Pearson (r)</b>. Es un número entre <b>-1 y +1</b> que responde a una pregunta sencilla:
+      </p>
+      <p class="mt-3 text-zinc-400 text-sm">
+        Cuando una variable sube, ¿la otra sube también, baja, o no le importa?
+      </p>
+      <ul class="mt-4 space-y-2 text-sm">
+        <li><b class="text-emerald-300">r = +1</b> — perfectamente juntas hacia arriba.</li>
+        <li><b class="text-amber-300">r = 0</b> — no tienen relación.</li>
+        <li><b class="text-rose-300">r = -1</b> — perfectamente opuestas.</li>
+      </ul>
+      <p class="mt-4 text-zinc-400 text-sm">Ojo: <span class="hl">correlación no es causalidad</span>. Que dos cosas se muevan juntas no significa que una cause la otra — solo que vienen acompañadas.</p>
+    </div>
+
+    <div class="card p-6">
+      <div class="text-xs uppercase tracking-wider text-zinc-500">Resultado del estudio</div>
+      <div class="mt-2 flex items-baseline gap-3">
+        <span class="text-7xl font-black text-cyan-300 leading-none">0.959</span>
+        <span class="text-zinc-400">(p &lt; 0.01)</span>
+      </div>
+      <p class="mt-3 text-zinc-300 text-sm">Eso es una <b>correlación altísima y positiva</b>. En la escala del estudio, cualquier valor entre 0.85 y 0.99 entra en "alta y fuerte".</p>
+
+      <div class="mt-5">
+        <div class="text-xs text-zinc-500 mb-1">Ubicación en la escala</div>
+        <div class="relative h-3 rounded-full bg-gradient-to-r from-rose-500 via-zinc-700 to-emerald-500">
+          <div class="absolute -top-1.5 h-6 w-1.5 bg-white rounded-full" style="left: calc(50% + 0.5 * 47.95%);"></div>
+        </div>
+        <div class="flex justify-between text-[10px] text-zinc-500 mt-1"><span>-1</span><span>0</span><span>+1</span></div>
+      </div>
+
+      <p class="mt-5 text-zinc-400 text-sm">
+        <b>Sig. (bilateral) = 0.000</b> significa que la probabilidad de que esta relación tan fuerte salga <b>por pura casualidad</b> es prácticamente cero. Por eso se dice que la relación es <b>"significativa"</b>.
+      </p>
+    </div>
+  </div>
+
+  <div class="card p-6 mt-6">
+    <h3 class="font-semibold mb-3">Pruébalo tú: cómo se ve una correlación</h3>
+    <p class="text-sm text-zinc-400 mb-4">Mueve el slider y observa cómo cambian los puntos. A la derecha, el patrón que sale con <b>r = 0.96</b> (lo que encontró la tesis).</p>
+    <div class="grid md:grid-cols-2 gap-6 items-center">
+      <div>
+        <input id="rSlider" type="range" min="-1" max="1" step="0.01" value="0.96" class="w-full accent-cyan-400">
+        <div class="flex justify-between text-xs text-zinc-500 mt-1"><span>-1</span><span>0</span><span>+1</span></div>
+        <div class="mt-3 text-sm">r interactivo = <span id="rVal" class="font-mono text-cyan-300">0.95</span></div>
+        <p id="rInterp" class="mt-2 text-sm text-zinc-400"><span class="text-emerald-300"><b>Correlación alta y fuerte</b></span> · positiva (suben juntas)</p>
+      </div>
+      <div class="h-[300px] card p-3"><canvas id="scatter" width="978" height="548" style="display: block; box-sizing: border-box; height: 274px; width: 489px;"></canvas></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRUEBA T -->
+<section id="pruebat" class="max-w-6xl mx-auto px-6 py-12">
+  <div class="flex items-center gap-3 mb-4">
+    <span class="step-num">6</span>
+    <h2 class="text-2xl md:text-3xl font-bold">La prueba t — ¿podemos creer la relación?</h2>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="card p-6">
+      <p class="text-zinc-300">
+        Tener <b>r = 0.96</b> con tan pocos arquitectos (17) podría ser casualidad. La <b>prueba t de Student</b> es el filtro que aplica el detector de mentiras.
+      </p>
+      <p class="mt-3 text-zinc-400 text-sm">
+        Funciona así: existe una <b>zona de aceptación</b> (lo "normal" si no hubiera relación real) y dos <b>zonas de rechazo</b> en los extremos. Si el valor calculado cae adentro, no se puede afirmar nada. Si cae afuera, se rechaza la "hipótesis nula" — es decir, <b>sí hay relación</b>.
+      </p>
+      <div class="mt-5 grid grid-cols-2 gap-3">
+        <div class="card p-3">
+          <div class="text-xs text-zinc-500">t teórica (umbral)</div>
+          <div class="text-2xl font-bold">±1.98</div>
+        </div>
+        <div class="card p-3">
+          <div class="text-xs text-zinc-500">t calculada</div>
+          <div class="text-2xl font-bold text-emerald-400">13.11</div>
+        </div>
+      </div>
+      <p class="mt-4 text-sm">
+        <b class="text-emerald-400">13.11 está MUY afuera de ±1.98</b>. La tesis rechaza la hipótesis nula con cero dudas: el diseño acústico <span class="hl">sí</span> se relaciona con el arquitectónico.
+      </p>
+    </div>
+
+    <div class="card p-6">
+      <div class="text-xs uppercase tracking-wider text-zinc-500 mb-2">Curva t — visualización interactiva</div>
+      <div class="h-[260px]"><canvas id="tCurve" width="980" height="520" style="display: block; box-sizing: border-box; height: 260px; width: 490px;"></canvas></div>
+      <div class="mt-4">
+        <label class="text-xs text-zinc-500">Mueve el slider para mover la "t calculada"</label>
+        <input id="tSlider" type="range" min="-15" max="15" step="0.1" value="13.11" class="w-full accent-emerald-400">
+        <div class="flex justify-between text-xs text-zinc-500"><span>-15</span><span>0</span><span>+15</span></div>
+        <div id="tVerdict" class="mt-3 text-sm"><span class="chip bg-emerald-500/15 text-emerald-300">Rechazamos H₀</span> con t = 11.00 · cae <b>fuera</b> de ±1.98 → existe relación significativa.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card p-6 mt-6">
+    <h3 class="font-semibold mb-3">Las 4 hipótesis contrastadas</h3>
+    <div class="grid md:grid-cols-2 gap-3 text-sm">
+      <div class="p-4 rounded-xl bg-emerald-500/5 ring-soft">
+        <div class="text-xs uppercase tracking-wider text-emerald-300">Hipótesis general</div>
+        <div class="mt-1">Diseño acústico ↔ Diseño arquitectónico</div>
+        <div class="mt-2 text-zinc-400">r = 0.959 · t = 13.11 · <b class="text-emerald-400">Confirmada</b></div>
+      </div>
+      <div class="p-4 rounded-xl bg-emerald-500/5 ring-soft">
+        <div class="text-xs uppercase tracking-wider text-emerald-300">Específica 1</div>
+        <div class="mt-1">Aislamiento acústico ↔ Diseño arquitectónico</div>
+        <div class="mt-2 text-zinc-400">r = 0.959 · t = 13.11 · <b class="text-emerald-400">Confirmada</b></div>
+      </div>
+      <div class="p-4 rounded-xl bg-emerald-500/5 ring-soft">
+        <div class="text-xs uppercase tracking-wider text-emerald-300">Específica 2</div>
+        <div class="mt-1">Absorción acústica ↔ Diseño arquitectónico</div>
+        <div class="mt-2 text-zinc-400">r = 0.959 · t = 13.11 · <b class="text-emerald-400">Confirmada</b></div>
+      </div>
+      <div class="p-4 rounded-xl bg-emerald-500/5 ring-soft">
+        <div class="text-xs uppercase tracking-wider text-emerald-300">Específica 3</div>
+        <div class="mt-1">Difusión acústica ↔ Diseño arquitectónico</div>
+        <div class="mt-2 text-zinc-400">r = 0.959 · t = 13.11 · <b class="text-emerald-400">Confirmada</b></div>
+      </div>
+    </div>
+    <p class="text-xs text-zinc-500 mt-4">
+      Nota crítica: que las 4 correlaciones den exactamente <b>0.959</b> es llamativo y podría reflejar que las dimensiones internas están muy correlacionadas entre sí — algo natural con un instrumento donde α=0.965 (alta consistencia interna). Con N=17 hay que leer los resultados como <b>indicio fuerte en este contexto</b>, no como ley general.
+    </p>
+  </div>
+</section>
+
+<!-- CONCLUSIÓN -->
+<section id="conclusion" class="max-w-6xl mx-auto px-6 py-16">
+  <div class="flex items-center gap-3 mb-4">
+    <span class="step-num">7</span>
+    <h2 class="text-2xl md:text-3xl font-bold">Conclusión, en una frase</h2>
+  </div>
+  <div class="card p-8">
+    <p class="text-xl md:text-2xl leading-relaxed">
+      En este local de recepciones, <span class="hl">las decisiones acústicas y las arquitectónicas viajan juntas</span>:
+      cuando una está bien resuelta, la otra también lo está.
+      La evidencia (r = 0.959, t = 13.11, p &lt; 0.01) apoya la idea de que <b>no se pueden diseñar por separado</b> — son <b>la misma decisión vista desde dos ángulos</b>.
+    </p>
+    <div class="mt-6 grid md:grid-cols-3 gap-3 text-sm">
+      <div class="card p-4"><b>Punto fuerte</b><div class="text-zinc-400 mt-1">Confiabilidad altísima (α=0.965) y resultado estadísticamente contundente.</div></div>
+      <div class="card p-4"><b>Limitación</b><div class="text-zinc-400 mt-1">N=17 es pequeño y la encuesta captura percepciones, no mediciones acústicas reales (dB, RT60).</div></div>
+      <div class="card p-4"><b>Lectura honesta</b><div class="text-zinc-400 mt-1">Es un indicio fuerte aplicable al contexto local; generalizar a otras ciudades requiere replicar con más casos.</div></div>
+    </div>
+  </div>
+  <p class="text-center text-zinc-500 text-xs mt-8">
+    HTML interactivo generado a partir de los Capítulos III y IV de la tesis · 17 arquitectos especialistas · Huancayo
+  </p>
+</section>
+
+<script>
+/* === DATA === */
+const items = [
+  {n:1,dim:'aislamiento',label:'Alta capacidad de absorción acústica',s:12,a:5,nv:0},
+  {n:2,dim:'aislamiento',label:'Hermeticidad para evitar filtraciones de ruido',s:11,a:6,nv:0},
+  {n:3,dim:'aislamiento',label:'Materiales que minimizan la transmisión de ruido',s:12,a:5,nv:0},
+  {n:4,dim:'aislamiento',label:'Reducción del impacto sonoro',s:11,a:6,nv:0},
+  {n:5,dim:'aislamiento',label:'Tiempo de reverberación óptimo',s:11,a:6,nv:0},
+  {n:6,dim:'absorcion',label:'Coeficiente de absorción acústica adecuado',s:12,a:5,nv:0},
+  {n:7,dim:'absorcion',label:'Combinación de materiales absorbentes',s:11,a:6,nv:0},
+  {n:8,dim:'absorcion',label:'Uso de materiales absorbentes en paredes/techos/pisos',s:12,a:5,nv:0},
+  {n:9,dim:'absorcion',label:'Área total de absorción adaptable',s:10,a:7,nv:0},
+  {n:10,dim:'difusion',label:'Consideración de superficies reflectantes',s:11,a:6,nv:0},
+  {n:11,dim:'difusion',label:'Generación de puntos de concentración sonora (invertida)',s:0,a:5,nv:12,inverted:true},
+  {n:12,dim:'difusion',label:'Consideración de puntos de concentración de sonido',s:13,a:4,nv:0},
+  {n:13,dim:'difusion',label:'Influencia de superficies reflectantes evaluada',s:12,a:5,nv:0},
+  {n:14,dim:'difusion',label:'Distribución uniforme del sonido',s:11,a:6,nv:0},
+  {n:15,dim:'forma',label:'Relación volumen-superficie considerada',s:12,a:5,nv:0},
+  {n:16,dim:'forma',label:'Relación volumen-superficie ajustable',s:11,a:6,nv:0},
+  {n:17,dim:'forma',label:'Geometría del espacio adecuada',s:13,a:4,nv:0},
+  {n:18,dim:'forma',label:'Análisis detallado de superficies reflexivas',s:12,a:5,nv:0},
+  {n:19,dim:'forma',label:'Proporciones del espacio y distribución del sonido',s:11,a:6,nv:0},
+  {n:20,dim:'escala',label:'Ajustes según proporciones dimensionales',s:12,a:5,nv:0},
+  {n:21,dim:'escala',label:'Herramientas de simulación acústica',s:11,a:6,nv:0},
+  {n:22,dim:'materiales',label:'Análisis de dimensiones de espacio abierto',s:12,a:5,nv:0},
+  {n:23,dim:'materiales',label:'Selección de materiales por absorción acústica',s:12,a:5,nv:0},
+  {n:24,dim:'materiales',label:'Adaptabilidad según transmisión de sonido',s:11,a:6,nv:0},
+  {n:25,dim:'materiales',label:'Adaptabilidad a configuraciones del espacio',s:11,a:6,nv:0},
+  {n:26,dim:'materiales',label:'Adaptabilidad de soluciones acústicas',s:12,a:5,nv:0},
+];
+
+const DIM_NAMES = {
+  aislamiento:'Aislamiento acústico',
+  absorcion:'Absorción acústica',
+  difusion:'Difusión acústica',
+  forma:'Forma y espacio',
+  escala:'Escala y proporción',
+  materiales:'Materiales y texturas'
+};
+
+/* === Cronbach bar anim === */
+requestAnimationFrame(()=>{ document.getElementById('cronbachBar').style.width = '96.5%'; });
+
+/* === ITEMS CHART === */
+const ctx = document.getElementById('itemsChart').getContext('2d');
+let currentDim = 'all';
+const baseColors = { s:'#34d399', a:'#fbbf24', nv:'#fb7185' };
+
+function filtered(){ return currentDim==='all' ? items : items.filter(i=>i.dim===currentDim); }
+
+const chart = new Chart(ctx,{
+  type:'bar',
+  data: buildData(filtered()),
+  options:{
+    indexAxis:'y',
+    responsive:true, maintainAspectRatio:false,
+    scales:{
+      x:{stacked:true, max:17, grid:{color:'rgba(255,255,255,0.04)'}, ticks:{color:'#a1a1aa', stepSize:1}},
+      y:{stacked:true, grid:{display:false}, ticks:{color:'#d4d4d8', font:{size:11}}}
+    },
+    plugins:{
+      legend:{labels:{color:'#e4e4e7'}},
+      tooltip:{
+        callbacks:{
+          label: c => `${c.dataset.label}: ${c.raw} de 17 (${(c.raw/17*100).toFixed(1)}%)`
+        }
+      }
+    }
+  }
+});
+
+function buildData(arr){
+  return {
+    labels: arr.map(i => `${i.n}. ${i.label}`),
+    datasets:[
+      {label:'Siempre', data:arr.map(i=>i.s), backgroundColor:baseColors.s, borderRadius:4},
+      {label:'A veces', data:arr.map(i=>i.a), backgroundColor:baseColors.a, borderRadius:4},
+      {label:'Nunca',   data:arr.map(i=>i.nv), backgroundColor:baseColors.nv, borderRadius:4},
+    ]
+  };
+}
+
+function renderSummary(){
+  const arr = filtered();
+  const total = arr.length*17;
+  const sumS = arr.reduce((a,i)=>a+i.s,0);
+  const sumA = arr.reduce((a,i)=>a+i.a,0);
+  const sumN = arr.reduce((a,i)=>a+i.nv,0);
+  const fmt = (v) => `${(v/total*100).toFixed(1)}%`;
+  document.getElementById('summaryCards').innerHTML = `
+    <div class="card p-4 ring-soft">
+      <div class="flex items-center gap-2 text-xs text-zinc-500"><span class="marker-dot" style="background:${baseColors.s}"></span>Siempre</div>
+      <div class="text-3xl font-bold mt-1">${fmt(sumS)}</div>
+      <div class="text-xs text-zinc-400">${sumS} respuestas de ${total}</div>
+    </div>
+    <div class="card p-4 ring-soft">
+      <div class="flex items-center gap-2 text-xs text-zinc-500"><span class="marker-dot" style="background:${baseColors.a}"></span>A veces</div>
+      <div class="text-3xl font-bold mt-1">${fmt(sumA)}</div>
+      <div class="text-xs text-zinc-400">${sumA} respuestas de ${total}</div>
+    </div>
+    <div class="card p-4 ring-soft">
+      <div class="flex items-center gap-2 text-xs text-zinc-500"><span class="marker-dot" style="background:${baseColors.nv}"></span>Nunca</div>
+      <div class="text-3xl font-bold mt-1">${fmt(sumN)}</div>
+      <div class="text-xs text-zinc-400">${sumN} respuestas de ${total}</div>
+    </div>`;
+}
+
+function refresh(){
+  chart.data = buildData(filtered());
+  chart.update();
+  renderSummary();
+}
+renderSummary();
+
+document.querySelectorAll('#dimFilters button').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('#dimFilters button').forEach(b=>b.setAttribute('aria-pressed','false'));
+    btn.setAttribute('aria-pressed','true');
+    currentDim = btn.dataset.dim;
+    refresh();
+  });
+});
+
+/* === TABLE === */
+const tbody = document.querySelector('#dataTable tbody');
+tbody.innerHTML = items.map(i=>`
+  <tr class="border-t border-white/5">
+    <td class="py-2 text-zinc-500">${i.n}</td>
+    <td class="text-zinc-400 text-xs">${DIM_NAMES[i.dim]}</td>
+    <td>${i.label}${i.inverted?' <span class="chip bg-rose-500/10 text-rose-300">invertida</span>':''}</td>
+    <td class="text-right text-emerald-300">${(i.s/17*100).toFixed(2)}%</td>
+    <td class="text-right text-amber-300">${(i.a/17*100).toFixed(2)}%</td>
+    <td class="text-right text-rose-300">${(i.nv/17*100).toFixed(2)}%</td>
+  </tr>`).join('');
+
+/* === SCATTER for r === */
+function genScatter(r, n=60){
+  const pts = [];
+  for(let i=0;i<n;i++){
+    const x = (Math.random()*2 - 1);
+    const noise = (Math.random()*2 - 1);
+    const y = r*x + Math.sqrt(Math.max(0,1-r*r))*noise;
+    pts.push({x: x*5+5, y: y*5+5});
+  }
+  return pts;
+}
+
+const scatterCtx = document.getElementById('scatter').getContext('2d');
+const scatter = new Chart(scatterCtx,{
+  type:'scatter',
+  data:{ datasets:[{ data: genScatter(0.96), backgroundColor:'#22d3ee', pointRadius:4 }] },
+  options:{
+    responsive:true, maintainAspectRatio:false,
+    plugins:{legend:{display:false}},
+    scales:{
+      x:{min:0,max:10,grid:{color:'rgba(255,255,255,0.04)'},ticks:{color:'#71717a'}},
+      y:{min:0,max:10,grid:{color:'rgba(255,255,255,0.04)'},ticks:{color:'#71717a'}}
+    }
+  }
+});
+
+const rSlider = document.getElementById('rSlider');
+const rVal = document.getElementById('rVal');
+const rInterp = document.getElementById('rInterp');
+
+function interpretR(r){
+  const a = Math.abs(r);
+  let label, color;
+  if (a>=0.85) {label='alta y fuerte'; color='text-emerald-300';}
+  else if (a>=0.6) {label='alta'; color='text-cyan-300';}
+  else if (a>=0.4) {label='moderada'; color='text-yellow-300';}
+  else if (a>=0.15) {label='baja'; color='text-amber-300';}
+  else if (a>0) {label='muy débil'; color='text-rose-300';}
+  else {label='nula'; color='text-zinc-400';}
+  const dir = r>0 ? 'positiva (suben juntas)' : r<0 ? 'negativa (una sube, la otra baja)' : 'sin dirección';
+  return `<span class="${color}"><b>Correlación ${label}</b></span> · ${dir}`;
+}
+
+rSlider.addEventListener('input',()=>{
+  const r = parseFloat(rSlider.value);
+  rVal.textContent = r.toFixed(2);
+  scatter.data.datasets[0].data = genScatter(r);
+  scatter.update('none');
+  rInterp.innerHTML = interpretR(r);
+});
+rInterp.innerHTML = interpretR(0.96);
+
+/* === T CURVE === */
+function tPdf(x, df=15){
+  // approx t pdf via beta
+  const gammaApprox = (x)=>{
+    if(x<0.5) return Math.PI / (Math.sin(Math.PI*x) * gammaApprox(1-x));
+    x -= 1;
+    const g = 7;
+    const c = [0.99999999999980993, 676.5203681218851, -1259.1392167224028,
+       771.32342877765313, -176.61502916214059, 12.507343278686905,
+       -0.13857109526572012, 9.9843695780195716e-6, 1.5056327351493116e-7];
+    let a = c[0];
+    for(let i=1;i<g+2;i++) a += c[i]/(x+i);
+    const t = x + g + 0.5;
+    return Math.sqrt(2*Math.PI)*Math.pow(t, x+0.5)*Math.exp(-t)*a;
+  };
+  const num = gammaApprox((df+1)/2);
+  const den = Math.sqrt(df*Math.PI)*gammaApprox(df/2);
+  return (num/den) * Math.pow(1 + x*x/df, -(df+1)/2);
+}
+
+const tLabels = [];
+const tData = [];
+for(let x=-15;x<=15;x+=0.25){ tLabels.push(x.toFixed(2)); tData.push(tPdf(x,15)); }
+
+const tCtx = document.getElementById('tCurve').getContext('2d');
+const tChart = new Chart(tCtx,{
+  type:'line',
+  data:{
+    labels: tLabels,
+    datasets:[
+      {label:'Distribución t', data:tData, borderColor:'#a78bfa', backgroundColor:'rgba(167,139,250,0.15)', fill:true, pointRadius:0, tension:.35},
+      {label:'t calculada', data: tLabels.map(()=>null), borderColor:'#34d399', borderWidth:2, pointRadius:0}
+    ]
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false,
+    plugins:{legend:{display:false}, tooltip:{enabled:false}},
+    scales:{
+      x:{grid:{display:false}, ticks:{color:'#71717a', callback:(v,i)=>{const x=parseFloat(tLabels[i]); return Math.abs(x)%5===0? x:'';}}},
+      y:{display:false}
+    }
+  }
+});
+
+function drawT(tCalc){
+  // verticals via vertical line plugin emulation: use a second dataset of bars - simpler: re-draw annotation manually
+  const idx = tLabels.findIndex(v => parseFloat(v) >= tCalc);
+  const arr = tLabels.map(()=>null);
+  if(idx>=0) arr[idx] = Math.max(...tData)*1.05;
+  tChart.data.datasets[1].data = arr;
+  // color regions of fill: change borderColor based on rejected
+  const rejected = Math.abs(tCalc) > 1.98;
+  tChart.data.datasets[0].backgroundColor = rejected ? 'rgba(52,211,153,0.18)' : 'rgba(251,191,36,0.18)';
+  tChart.data.datasets[0].borderColor = rejected ? '#34d399' : '#fbbf24';
+  tChart.update('none');
+  const v = document.getElementById('tVerdict');
+  if(rejected){
+    v.innerHTML = `<span class="chip bg-emerald-500/15 text-emerald-300">Rechazamos H₀</span> con t = ${tCalc.toFixed(2)} · cae <b>fuera</b> de ±1.98 → existe relación significativa.`;
+  } else {
+    v.innerHTML = `<span class="chip bg-amber-500/15 text-amber-300">No se rechaza H₀</span> con t = ${tCalc.toFixed(2)} · cae <b>dentro</b> de ±1.98 → no podemos afirmar que haya relación.`;
+  }
+}
+drawT(13.11);
+document.getElementById('tSlider').addEventListener('input', e => drawT(parseFloat(e.target.value)));
+</script>
+
+
+
+</body></html>
